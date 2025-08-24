@@ -33,6 +33,32 @@ class _AnimatedParticleScreenState extends State<AnimatedParticleScreen> with Si
   }
   @override
   Widget build(BuildContext context) {
-    return Scaffold();
+    return Scaffold(
+      body: Container(
+        decoration: BoxDecoration(
+          gradient: RadialGradient(
+            center: Alignment(-0.8, -0.9),
+            radius: 2.0,
+            colors: [
+              Color(0xFF1A1A2E),
+              Color(0xFF16213E),
+              Color(0xFF0F0F23),
+            ],
+          )
+        ),
+        child: Stack(
+          children: [
+            AnimatedBuilder(
+              animation: _particleController, 
+              builder: (context, child) {
+                return CustomPaint(
+                  size: Size.infinite,
+                );
+              },
+            )
+          ],
+        ),
+      ),
+    );
   }
 }
