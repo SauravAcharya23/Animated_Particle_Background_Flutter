@@ -97,3 +97,14 @@ Perfect for:
 
 Simply replace the text "Add Content Here..." with your own content to customize for your application.
 
+#Samples:
+
+<img width="360" height="3120" alt="Screenshot_1756031138" src="https://github.com/user-attachments/assets/65b1665d-dca1-424b-92dd-15bd59024160" /> 
+
+https://github.com/user-attachments/assets/7c28270b-62e2-48ac-99a9-3f385944ca7a
+
+
+
+
+
+
